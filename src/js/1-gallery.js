@@ -87,5 +87,7 @@ const markup = galleryMarkup(images);
 galleryEl.insertAdjacentHTML('beforeend', markup);
 
 new SimpleLightbox('.gallery a', {
-  /* options */
+  captionsData: 'alt',
+  captionsPosition: 'bottom',
+  captionsDelay: 250,
 });

@@ -47,3 +47,7 @@ body {
 .sl-wrapper {
   background-color: #2e2f42cc;
 }
+
+.sl-caption {
+  letter-spacing: 0.2em;
+}
